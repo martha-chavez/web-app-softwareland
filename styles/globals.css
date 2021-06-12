@@ -14,3 +14,29 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+.image{
+
+    margin: 25px auto;
+    /* border: 1px solid #91acda; */
+    width: 200px;
+    height: 200px;
+    /* box-shadow: 7px 7px 15px #5bc0de;  */
+}
+.t-front{
+  font-size: 38px;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #2D93B5;
+}
+.logo{
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+
+}
