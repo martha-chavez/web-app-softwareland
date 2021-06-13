@@ -1,20 +1,22 @@
 import React from 'react';
 import { Container, Row, Col } from "reactstrap";
+
 const Footer = () => {
   const links = [
-    { id : 1, title : "Feature",
+    { id : 1, title : "Front-End",
       child : [
-          { title : "LOREM IPSUM", link : "/" },
-          { title : "LOREM IPSUM", link : "/" },
-          { title : "LOREM IPSUM", link : "/" },
-          { title : "LOREM IPSUM", link : "/" }
+          { title : "REACT", link : "https://es.reactjs.org" },
+          { title : "VUE", link : "https://vuejs.org" },
+          { title : "ANGULAR", link : "https://angular.io" },
+          // { title : "LOREM IPSUM", link : "/" }
       ]
     },
-    { id : 2, title : "About Us",
+    { id : 2, title : "Back-End",
       child : [
-          { title : "Contact Us", link : "/" },
-          { title : "FAQs", link : "/" },
-          { title : "Privacy Policy", link : "/" },
+          { title : ".NET Core", link : "https://dotnet.microsoft.com/download" },
+          { title : "LARAVEL", link : "https://laravel.com" },
+          { title : "SPRING", link : "https://spring.io" },
+          { title : "EXPRESS", link : "https://expressjs.com/es/" },
       ]
     },
   ];
@@ -25,8 +27,8 @@ const Footer = () => {
         <Row>
           <Col lg={4}>
               <div className="mb-4">
-                <p className="text-muted mt-4 mb-2">email@email.com</p>
-                <h6 className="text-muted font-weight-normal">+99 1234-5678-9</h6>
+                <p className="text-muted mt-4 mb-2">Páginas oficiales de los Frameworks</p>
+                <h6 className="text-muted font-weight-normal"> que aparecen en esta página:</h6>
               </div>
           </Col>
           <Col lg={8}>
@@ -34,7 +36,7 @@ const Footer = () => {
               {
                 links.map((link, key) =>
                   <Col key={key} md={4}>
-                    <h6 className="text-dark mb-3">{link.title}</h6>
+                    <h6 className="text-dark h3 mb-3">{link.title}</h6>
                     <ul className="list-unstyled company-sub-menu">
                       {
                         link.child.map((fLink, key) =>
@@ -47,14 +49,14 @@ const Footer = () => {
               }
               
               <Col md={4}>
-                <h6 className="text-dark mb-3">Our Address</h6>
-                <p className="text-muted f-14">1234 Lorem Ipsum dummy text, 12345</p>
-                <h6 className="text-muted pb-2">Email: email@email.com</h6>
-                <ul className="list-unstyled footer-social-list mt-4">
-                  <li className="list-inline-item"><a href="#"><i className="mdi mdi-facebook"></i></a></li>
-                  <li className="list-inline-item"><a href="#"><i className="mdi mdi-instagram"></i></a></li>
-                  <li className="list-inline-item"><a href="#"><i className="mdi mdi-linkedin"></i></a></li>
-                </ul>
+              <span class="mdi mdi-football-helmet"></span>
+
+                <h6 className="text-dark h4 mb-3"> Informacion de contacto</h6>
+                <p className="text-muted f-14"> </p>
+                <h8 className="text-muted pb-2 ">Email: </h8>
+                <a href=" mailto:chavezsoriamarthaangelica@gmail.com">  Martha_Chavez</a><br/>
+                <h7 className="text-muted pb-2">Linkedin:</h7> <a href="https://www.linkedin.com/in/martha-angelica-chávez-soria-129533180/">Martha Angelica Chávez</a>
+                
               </Col>
             </Row>
           </Col>

@@ -3,7 +3,15 @@
   }
   .header .nav-item {
     padding-left: 50px;
+    cursor: pointer;
+    
   }
+  .header .nav-item .encabezado{
+    font-weight: bold;
+    color:#f1f1f1;
+    cursor: pointer;
+  }
+  
   .header .navbar {
     padding: 10px 0px;
     line-height: 50px;

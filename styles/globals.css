@@ -20,23 +20,30 @@ a {
   padding-bottom: 100px;
   position: relative;
 }
+/* imagenes de frontend */
 .image{
-
     margin: 25px auto;
-    /* border: 1px solid #91acda; */
     width: 200px;
     height: 200px;
-    /* box-shadow: 7px 7px 15px #5bc0de;  */
 }
+/* titulo de front y back */
 .t-front{
   font-size: 38px;
   padding: 20px;
   text-align: center;
   text-shadow: 2px 2px 2px #2D93B5;
 }
+
+/* imagen de inicio */
+.hero{
+  border-radius: 10%;
+  margin: 25px auto;
+  border: 1px solid #91acda;
+  box-shadow: 7px 7px 15px #5bc0de; 
+}
+
 .logo{
   border-radius: 50%;
   width: 70px;
   height: 70px;
-
 }

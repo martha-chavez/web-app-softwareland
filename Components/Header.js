@@ -38,16 +38,16 @@ const Header = () => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="m-auto" navbar>
               <NavItem>
-                <NavLink href="/">Home</NavLink>
+                <NavLink className="encabezado" href="/">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#feature">Front-End</NavLink>
+                <NavLink className="encabezado" href="#feature">Front-End</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#service">Back-End</NavLink>
+                <NavLink className="encabezado" href="#service">Back-End</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#about">About</NavLink>
+                <NavLink className="encabezado"  href="#about">Información</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

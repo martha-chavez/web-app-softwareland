@@ -1,18 +1,18 @@
-import Layout from "../components/Layout";
-import Header from "../components/Header";
-import Hero from "../components/Hero";
+import Layout from "../Components/Layout";
+import Header from "../Components/Header";
+import Hero from "../Components/Hero";
 import Frontend from '../Components/Frontend';
 import Backend from '../Components/Backend';
-import About from '../components/About';
-import Footer from '../components/Footer';
+import Informacion from '../Components/Informacion';
+import Footer from '../Components/Footer';
 const Index = () => {
   return (
-    <Layout pageTitle="Landing Page Nextjs">
+    <Layout pageTitle="Sofwareland Martha_Chavez">
       <Header />
       <Hero />
       <Frontend/>
       <Backend />
-      <About />
+      <Informacion />
       <Footer />
     </Layout>
   )
